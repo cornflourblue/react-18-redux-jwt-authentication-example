@@ -26,14 +26,6 @@ function App() {
                             </PrivateRoute>
                         }
                     />
-                    <Route
-                        path="/foobar"
-                        element={
-                            <PrivateRoute>
-                                <Home />
-                            </PrivateRoute>
-                        }
-                    />
                     <Route path="/login" element={<Login />} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Routes>
