@@ -22,6 +22,7 @@ function Login() {
     }, []);
 
     // form validation rules 
+    // to be edited
     const validationSchema = Yup.object().shape({
         username: Yup.string().required('Username is required'),
         password: Yup.string().required('Password is required')
